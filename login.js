@@ -8,9 +8,7 @@ let senha = document.getElementById('loginSenha').value;
 if(!email || !senha){
        alert("campos de preechimento obrigatório. Favor preencher");
 }else {
-
-       alert("Campos preenchidos com sucesso");
-
+        window.location.href ="aula2.html";
     }
 
 }
