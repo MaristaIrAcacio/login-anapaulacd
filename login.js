@@ -2,7 +2,7 @@
 
 
 
-function verificar (){
+function verificar(){
 let email = document.getElementById('loginEmail').value;
 let senha = document.getElementById('loginSenha').value;
 if(!email || !senha){
@@ -11,6 +11,16 @@ if(!email || !senha){
         window.location.href ="aula2.html";
     }
 
+}
+
+// função para aemazenar nomes em arrau
+var dadosLista = [];
+
+function salvarUser (){
+    let nomeUser = document.getElementById("nomeUser").value;
+    if(nomeUser){
+        dadosLista.push(nomeUser);
+    }
 }
 
 
